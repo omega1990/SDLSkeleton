@@ -8,7 +8,8 @@ include_directories(${MY_SOURCE_DIR}/inc)
 #Put the source here
 set(SRCS
 	
-src/main
+inc/Defaults.hpp
+src/main.cpp
 )
 
 set(SDL2_DIR
